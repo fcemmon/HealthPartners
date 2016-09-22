@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123DEEE4F01ADCEEAA24D3DF /* Pods_HealthPartnersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D38A766ADC01A6119E5D68 /* Pods_HealthPartnersUITests.framework */; };
+		190E813758E87EA984D7F55A /* Pods_HealthPartners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229B09B408E310BFC9DCDA5E /* Pods_HealthPartners.framework */; };
+		826C99520776A65EDD0A9647 /* Pods_HealthPartnersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734EAF1CD199B9B3945A3431 /* Pods_HealthPartnersTests.framework */; };
+		8A8F86461D90CCBE00FFB641 /* LogOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F86451D90CCBE00FFB641 /* LogOn.swift */; };
+		8A8F86491D90D8C100FFB641 /* 2_mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F86481D90D8C100FFB641 /* 2_mainmenu.png */; };
+		8A8F864B1D90DDC700FFB641 /* Today-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F864A1D90DDC700FFB641 /* Today-96.png */; };
+		8A8F864E1D90ECA900FFB641 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F864D1D90ECA900FFB641 /* AppointmentCell.swift */; };
+		8A8F86511D90EE4500FFB641 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F86501D90EE4500FFB641 /* Appointment.swift */; };
+		8A8F86541D90FCBD00FFB641 /* AppointmentListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F86531D90FCBD00FFB641 /* AppointmentListController.swift */; };
+		8A8F86561D91029300FFB641 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F86551D91029300FFB641 /* MenuViewController.swift */; };
+		8A8F86581D91037000FFB641 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F86571D91037000FFB641 /* MainViewController.swift */; };
+		8A8F865A1D9105D100FFB641 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F86591D9105D100FFB641 /* Menu.swift */; };
+		8A8F865C1D91062700FFB641 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F865B1D91062600FFB641 /* MenuCell.swift */; };
+		8A8F865E1D911ABB00FFB641 /* Menu Filled-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F865D1D911ABB00FFB641 /* Menu Filled-100.png */; };
+		8A8F86601D911D8500FFB641 /* phone-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A8F865F1D911D8500FFB641 /* phone-menu.png */; };
 		8AD218081D900BE30052C32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD218071D900BE30052C32A /* AppDelegate.swift */; };
 		8AD2180A1D900BE30052C32A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD218091D900BE30052C32A /* ViewController.swift */; };
 		8AD2180D1D900BE30052C32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD2180B1D900BE30052C32A /* Main.storyboard */; };
@@ -14,6 +29,9 @@
 		8AD218121D900BE30052C32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD218101D900BE30052C32A /* LaunchScreen.storyboard */; };
 		8AD2181D1D900BE30052C32A /* HealthPartnersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD2181C1D900BE30052C32A /* HealthPartnersTests.swift */; };
 		8AD218281D900BE30052C32A /* HealthPartnersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD218271D900BE30052C32A /* HealthPartnersUITests.swift */; };
+		8AD218591D9052ED0052C32A /* Healthcare-Homepage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AD218581D9052ED0052C32A /* Healthcare-Homepage.jpg */; };
+		8AD2185B1D9057F90052C32A /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD2185A1D9057F90052C32A /* images.png */; };
+		8AD218671D90CA670052C32A /* 1_ login.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AD218661D90CA670052C32A /* 1_ login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		229B09B408E310BFC9DCDA5E /* Pods_HealthPartners.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthPartners.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		546DCB84FA40E8C4A018DE70 /* Pods-HealthPartnersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthPartnersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthPartnersUITests/Pods-HealthPartnersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71C13780CB5155A2FBEBBF5D /* Pods-HealthPartners.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthPartners.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthPartners/Pods-HealthPartners.debug.xcconfig"; sourceTree = "<group>"; };
+		734EAF1CD199B9B3945A3431 /* Pods_HealthPartnersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthPartnersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842F4DC093DC54F1F9A9E45E /* Pods-HealthPartnersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthPartnersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthPartnersTests/Pods-HealthPartnersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8F86451D90CCBE00FFB641 /* LogOn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOn.swift; sourceTree = "<group>"; };
+		8A8F86481D90D8C100FFB641 /* 2_mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2_mainmenu.png; path = "../../../../../Users/alexey/Downloads/HealthCare Wireframe/2_mainmenu.png"; sourceTree = "<group>"; };
+		8A8F864A1D90DDC700FFB641 /* Today-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Today-96.png"; path = "Resources/Today-96.png"; sourceTree = "<group>"; };
+		8A8F864D1D90ECA900FFB641 /* AppointmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		8A8F86501D90EE4500FFB641 /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8A8F86531D90FCBD00FFB641 /* AppointmentListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListController.swift; sourceTree = "<group>"; };
+		8A8F86551D91029300FFB641 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8A8F86571D91037000FFB641 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8A8F86591D9105D100FFB641 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		8A8F865B1D91062600FFB641 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		8A8F865D1D911ABB00FFB641 /* Menu Filled-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Menu Filled-100.png"; path = "Resources/Menu Filled-100.png"; sourceTree = "<group>"; };
+		8A8F865F1D911D8500FFB641 /* phone-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "phone-menu.png"; path = "Resources/phone-menu.png"; sourceTree = "<group>"; };
 		8AD218041D900BE30052C32A /* HealthPartners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthPartners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD218071D900BE30052C32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD218091D900BE30052C32A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,13 @@
 		8AD218231D900BE30052C32A /* HealthPartnersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthPartnersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD218271D900BE30052C32A /* HealthPartnersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthPartnersUITests.swift; sourceTree = "<group>"; };
 		8AD218291D900BE30052C32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD218581D9052ED0052C32A /* Healthcare-Homepage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Healthcare-Homepage.jpg"; path = "Resources/Healthcare-Homepage.jpg"; sourceTree = "<group>"; };
+		8AD2185A1D9057F90052C32A /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = Resources/images.png; sourceTree = "<group>"; };
+		8AD218661D90CA670052C32A /* 1_ login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1_ login.png"; path = "../../../../../Users/alexey/Downloads/HealthCare Wireframe/1_ login.png"; sourceTree = "<group>"; };
+		9FF88E7A7FEA96CC91ACA62D /* Pods-HealthPartnersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthPartnersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthPartnersUITests/Pods-HealthPartnersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3D38A766ADC01A6119E5D68 /* Pods_HealthPartnersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthPartnersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1206B92E519E7C98E0B9798 /* Pods-HealthPartnersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthPartnersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthPartnersTests/Pods-HealthPartnersTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0BB8BD419524B4F4648BA3 /* Pods-HealthPartners.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthPartners.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthPartners/Pods-HealthPartners.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190E813758E87EA984D7F55A /* Pods_HealthPartners.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				826C99520776A65EDD0A9647 /* Pods_HealthPartnersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123DEEE4F01ADCEEAA24D3DF /* Pods_HealthPartnersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A8F86471D90D00200FFB641 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AD218091D900BE30052C32A /* ViewController.swift */,
+				8A8F86451D90CCBE00FFB641 /* LogOn.swift */,
+				8A8F86531D90FCBD00FFB641 /* AppointmentListController.swift */,
+				8A8F86551D91029300FFB641 /* MenuViewController.swift */,
+				8A8F86571D91037000FFB641 /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8A8F864C1D90EC8D00FFB641 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F864D1D90ECA900FFB641 /* AppointmentCell.swift */,
+				8A8F865B1D91062600FFB641 /* MenuCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8A8F864F1D90EE2D00FFB641 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F86501D90EE4500FFB641 /* Appointment.swift */,
+				8A8F86591D9105D100FFB641 /* Menu.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		8AD217FB1D900BE30052C32A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +156,8 @@
 				8AD2181B1D900BE30052C32A /* HealthPartnersTests */,
 				8AD218261D900BE30052C32A /* HealthPartnersUITests */,
 				8AD218051D900BE30052C32A /* Products */,
+				FA4853541721ED184A2066BC /* Pods */,
+				B0CAC1C145EB8069C7DFCF92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +174,11 @@
 		8AD218061D900BE30052C32A /* HealthPartners */ = {
 			isa = PBXGroup;
 			children = (
+				8A8F864F1D90EE2D00FFB641 /* Models */,
+				8A8F864C1D90EC8D00FFB641 /* Views */,
+				8A8F86471D90D00200FFB641 /* Controllers */,
+				8AD218351D9041C80052C32A /* Resources */,
 				8AD218071D900BE30052C32A /* AppDelegate.swift */,
-				8AD218091D900BE30052C32A /* ViewController.swift */,
 				8AD2180B1D900BE30052C32A /* Main.storyboard */,
 				8AD2180E1D900BE30052C32A /* Assets.xcassets */,
 				8AD218101D900BE30052C32A /* LaunchScreen.storyboard */,
@@ -125,6 +205,43 @@
 			path = HealthPartnersUITests;
 			sourceTree = "<group>";
 		};
+		8AD218351D9041C80052C32A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F865F1D911D8500FFB641 /* phone-menu.png */,
+				8A8F865D1D911ABB00FFB641 /* Menu Filled-100.png */,
+				8A8F864A1D90DDC700FFB641 /* Today-96.png */,
+				8A8F86481D90D8C100FFB641 /* 2_mainmenu.png */,
+				8AD218661D90CA670052C32A /* 1_ login.png */,
+				8AD2185A1D9057F90052C32A /* images.png */,
+				8AD218581D9052ED0052C32A /* Healthcare-Homepage.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0CAC1C145EB8069C7DFCF92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229B09B408E310BFC9DCDA5E /* Pods_HealthPartners.framework */,
+				734EAF1CD199B9B3945A3431 /* Pods_HealthPartnersTests.framework */,
+				A3D38A766ADC01A6119E5D68 /* Pods_HealthPartnersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA4853541721ED184A2066BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71C13780CB5155A2FBEBBF5D /* Pods-HealthPartners.debug.xcconfig */,
+				EB0BB8BD419524B4F4648BA3 /* Pods-HealthPartners.release.xcconfig */,
+				842F4DC093DC54F1F9A9E45E /* Pods-HealthPartnersTests.debug.xcconfig */,
+				B1206B92E519E7C98E0B9798 /* Pods-HealthPartnersTests.release.xcconfig */,
+				9FF88E7A7FEA96CC91ACA62D /* Pods-HealthPartnersUITests.debug.xcconfig */,
+				546DCB84FA40E8C4A018DE70 /* Pods-HealthPartnersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD2182C1D900BE30052C32A /* Build configuration list for PBXNativeTarget "HealthPartners" */;
 			buildPhases = (
+				9DDE66EA76FCCC157D51DD48 /* [CP] Check Pods Manifest.lock */,
 				8AD218001D900BE30052C32A /* Sources */,
 				8AD218011D900BE30052C32A /* Frameworks */,
 				8AD218021D900BE30052C32A /* Resources */,
+				1405701790338520E35B1850 /* [CP] Embed Pods Frameworks */,
+				EAF3E21FC986C9BCB2BBF296 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD2182F1D900BE30052C32A /* Build configuration list for PBXNativeTarget "HealthPartnersTests" */;
 			buildPhases = (
+				9BF5E105FF7C47A09970E8F9 /* [CP] Check Pods Manifest.lock */,
 				8AD218141D900BE30052C32A /* Sources */,
 				8AD218151D900BE30052C32A /* Frameworks */,
 				8AD218161D900BE30052C32A /* Resources */,
+				E28F2FE0D3F9F3421BF7177F /* [CP] Embed Pods Frameworks */,
+				C3DCB8631D74779C0C6714A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AD218321D900BE30052C32A /* Build configuration list for PBXNativeTarget "HealthPartnersUITests" */;
 			buildPhases = (
+				9497CA988D574EDE6997A8F3 /* [CP] Check Pods Manifest.lock */,
 				8AD2181F1D900BE30052C32A /* Sources */,
 				8AD218201D900BE30052C32A /* Frameworks */,
 				8AD218211D900BE30052C32A /* Resources */,
+				9FFA545AA6A4069A2F45657C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +355,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD218121D900BE30052C32A /* LaunchScreen.storyboard in Resources */,
+				8A8F86601D911D8500FFB641 /* phone-menu.png in Resources */,
+				8AD2185B1D9057F90052C32A /* images.png in Resources */,
+				8A8F86491D90D8C100FFB641 /* 2_mainmenu.png in Resources */,
 				8AD2180F1D900BE30052C32A /* Assets.xcassets in Resources */,
+				8A8F864B1D90DDC700FFB641 /* Today-96.png in Resources */,
 				8AD2180D1D900BE30052C32A /* Main.storyboard in Resources */,
+				8AD218671D90CA670052C32A /* 1_ login.png in Resources */,
+				8AD218591D9052ED0052C32A /* Healthcare-Homepage.jpg in Resources */,
+				8A8F865E1D911ABB00FFB641 /* Menu Filled-100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +383,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1405701790338520E35B1850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthPartners/Pods-HealthPartners-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9497CA988D574EDE6997A8F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF5E105FF7C47A09970E8F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDE66EA76FCCC157D51DD48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFA545AA6A4069A2F45657C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthPartnersUITests/Pods-HealthPartnersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DCB8631D74779C0C6714A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthPartnersTests/Pods-HealthPartnersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28F2FE0D3F9F3421BF7177F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthPartnersTests/Pods-HealthPartnersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF3E21FC986C9BCB2BBF296 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthPartners/Pods-HealthPartners-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AD218001D900BE30052C32A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8AD2180A1D900BE30052C32A /* ViewController.swift in Sources */,
+				8A8F86461D90CCBE00FFB641 /* LogOn.swift in Sources */,
 				8AD218081D900BE30052C32A /* AppDelegate.swift in Sources */,
+				8A8F86561D91029300FFB641 /* MenuViewController.swift in Sources */,
+				8A8F86541D90FCBD00FFB641 /* AppointmentListController.swift in Sources */,
+				8A8F864E1D90ECA900FFB641 /* AppointmentCell.swift in Sources */,
+				8A8F865C1D91062700FFB641 /* MenuCell.swift in Sources */,
+				8A8F865A1D9105D100FFB641 /* Menu.swift in Sources */,
+				8A8F86511D90EE4500FFB641 /* Appointment.swift in Sources */,
+				8A8F86581D91037000FFB641 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +662,7 @@
 		};
 		8AD2182D1D900BE30052C32A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C13780CB5155A2FBEBBF5D /* Pods-HealthPartners.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthPartners/Info.plist;
@@ -410,6 +674,7 @@
 		};
 		8AD2182E1D900BE30052C32A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0BB8BD419524B4F4648BA3 /* Pods-HealthPartners.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HealthPartners/Info.plist;
@@ -421,6 +686,7 @@
 		};
 		8AD218301D900BE30052C32A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842F4DC093DC54F1F9A9E45E /* Pods-HealthPartnersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HealthPartnersTests/Info.plist;
@@ -433,6 +699,7 @@
 		};
 		8AD218311D900BE30052C32A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1206B92E519E7C98E0B9798 /* Pods-HealthPartnersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HealthPartnersTests/Info.plist;
@@ -445,6 +712,7 @@
 		};
 		8AD218331D900BE30052C32A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF88E7A7FEA96CC91ACA62D /* Pods-HealthPartnersUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HealthPartnersUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +724,7 @@
 		};
 		8AD218341D900BE30052C32A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546DCB84FA40E8C4A018DE70 /* Pods-HealthPartnersUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HealthPartnersUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +753,7 @@
 				8AD2182E1D900BE30052C32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AD2182F1D900BE30052C32A /* Build configuration list for PBXNativeTarget "HealthPartnersTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +762,7 @@
 				8AD218311D900BE30052C32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AD218321D900BE30052C32A /* Build configuration list for PBXNativeTarget "HealthPartnersUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +771,7 @@
 				8AD218341D900BE30052C32A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

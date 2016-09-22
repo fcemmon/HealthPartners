@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-HealthPartners.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HealthPartnersTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HealthPartnersUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SWRevealViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>44C85DF06B0FB202474E39EF836EEB64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8BBF81E059862A482E614B374266B073</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFF1ED911AC2928923564D1155B6DE9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BAB19DCD9AEC7691C48ECA204DF6317D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
